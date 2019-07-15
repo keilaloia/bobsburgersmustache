@@ -20,9 +20,9 @@ router.post("/api/burger", function(req, res) {
     console.log("object created");
 
   burger.create([
-    "burger_name", "devoured"
+     "burger_name", "devoured"
   ], [
-    req.body.name, req.body.devoured
+    req.body.burger_name, req.body.devoured
   ], function(result) {
     console.log("object created");
 

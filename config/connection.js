@@ -17,8 +17,6 @@ else
       });
 }
 
-connection.connect();
-
 
 // Make connection.
 connection.connect(function(err) {
